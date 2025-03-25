@@ -1,0 +1,12 @@
+
+npm init -y
+npm install @prisma/client bcrypt cookie-parser cors express express-rate-limit jsonwebtoken nodemon prisma swagger-ui-express swagger-jsdoc
+
+npx prisma init
+npx prisma dev --name ชื่ออะไรก็ได้ 
+
+front end
+
+npm create vue@latest
+npm install --save quasar @quasar/extras
+npm install --save-dev @quasar/vite-plugin sass-embedded@^1.80.2
